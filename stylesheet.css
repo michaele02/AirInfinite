@@ -1,0 +1,312 @@
+@charset "UTF-8";
+/* CSS Document */
+
+	body{
+		/*background-color:#1A022E;*/
+		background-image: url("images/clouds.jpg");
+	}
+hr{
+	width: 50%;
+}
+a:hover{
+	transition-duration: .3s;
+	border-radius: 2em;
+	
+}
+	h1{
+		color: white;
+		font-family: 'Raleway';
+		letter-spacing: 1em;
+		text-align: center;
+	}
+	#nav{
+		border-bottom-right-radius: 2em;
+		border-bottom-left-radius: 1em;
+		border-top-right-radius: 1em;
+		border-top-left-radius: 2em;
+		background-color: #2D2C2C40;
+ 		float: right;
+	}
+	#nav ul{
+		list-style-type: none;
+		list-style: none;
+		
+	}
+	#nav ul li{
+		
+	}
+	#nav ul li a{
+		display: block;
+		padding: .5em;
+		border: 1px solid;
+		border-radius: .2em;
+		margin: .5em;
+		float: left;
+		color: white;
+		font-family: 'Raleway';
+		text-decoration: none;
+	
+	}
+#welcome{
+}
+#welcome h2{
+	color: white;
+	font-family: 'raleway';
+}
+#welcome p{
+	padding: .6em;
+	border-radius: .5em;
+	background-color: #2D2C2C40;
+	width: 50%;
+	color: white;
+	font-family: "raleway"
+}
+#planes h2{
+	color: white;
+	font-family: 'raleway';
+}
+#planes p{
+	padding: .6em;
+	border-radius: .5em;
+	background-color: #2D2C2C40;
+	width: 50%;
+	color: white;
+	font-family: "raleway";
+}
+#flights h2{
+	color: white;
+	font-family: 'raleway';
+}
+#flights p{
+	padding: .6em;
+	border-radius: .5em;
+	background-color: #2D2C2C40;
+	width: 50%;
+	color: white;
+	font-family: "raleway";
+}
+#GreenBay-Minneapolis{
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 1em;
+	border-top-right-radius: 1em;
+	border-top-left-radius: 2em;
+	padding: 1em;
+	background-color: #2D2C2C40;
+	width:15%;
+	height: 22em;
+	margin: 1em;
+ 	float: left;
+}
+#GreenBay-Minneapolis h3{
+	color: white;
+	font-family: 'raleway';
+}
+#GreenBay-Minneapolis p{
+	padding: .6em;
+	border-radius: .5em;
+	background-color: #2D2C2C40;
+	width: 50%;
+	color: white;
+	font-family: "raleway";
+}
+#GreenBay-Minneapolis ul{
+	list-style-type: none;
+	list-style: none;
+}
+#GreenBay-Minneapolis a{
+	display: block;
+	padding: .5em;
+	border: 1px solid;
+	border-radius: .2em;
+	margin: .5em;
+	float: left;
+	color: white;
+	font-family: 'Raleway';
+	text-decoration: none;
+}
+#GreenBay-Chicago{
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 1em;
+	border-top-right-radius: 1em;
+	border-top-left-radius: 2em;
+	padding: 1em;
+	background-color: #2D2C2C40;
+	width:15%;
+	height: 22em;
+	margin: 1em;
+ 	float: left;
+}
+#GreenBay-Chicago h3{
+	color: white;
+	font-family: 'raleway';
+}
+#GreenBay-Chicago p{
+	padding: .6em;
+	border-radius: .5em;
+	background-color: #2D2C2C40;
+	width: 50%;
+	color: white;
+	font-family: "raleway";
+}
+#GreenBay-Chicago ul{
+	list-style-type: none;
+	list-style: none;
+}
+#GreenBay-Chicago a{
+	display: block;
+	padding: .5em;
+	border: 1px solid;
+	border-radius: .2em;
+	margin: .5em;
+	float: left;
+	color: white;
+	font-family: 'Raleway';
+	text-decoration: none;
+}
+#GreenBay-Detroit{
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 1em;
+	border-top-right-radius: 1em;
+	border-top-left-radius: 2em;
+	padding: 1em;
+	background-color: #2D2C2C40;
+	width:15%;
+	height: 22em;
+	margin: 1em;
+ 	float: left;
+}
+#GreenBay-Detroit h3{
+	color: white;
+	font-family: 'raleway';
+}
+#GreenBay-Detroit p{
+	padding: .6em;
+	border-radius: .5em;
+	background-color: #2D2C2C40;
+	width: 50%;
+	color: white;
+	font-family: "raleway";
+}
+#GreenBay-Detroit ul{
+	list-style-type: none;
+	list-style: none;
+}
+#GreenBay-Detroit a{
+	display: block;
+	padding: .5em;
+	border: 1px solid;
+	border-radius: .2em;
+	margin: .5em;
+	float: left;
+	color: white;
+	font-family: 'Raleway';
+	text-decoration: none;
+}
+#GreenBay-Indianapolis{
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 1em;
+	border-top-right-radius: 1em;
+	border-top-left-radius: 2em;
+	padding: 1em;
+	background-color: #2D2C2C40;
+	width:15%;
+	height: 22em;
+	margin: 1em;
+ 	float: left;
+}
+#GreenBay-Indianapolis h3{
+	color: white;
+	font-family: 'raleway';
+}
+#GreenBay-Indianapolis p{
+	padding: .6em;
+	border-radius: .5em;
+	background-color: #2D2C2C40;
+	width: 50%;
+	color: white;
+	font-family: "raleway";
+}
+#GreenBay-Indianapolis ul{
+	list-style-type: none;
+	list-style: none;
+}
+#GreenBay-Indianapolis a{
+	display: block;
+	padding: .5em;
+	border: 1px solid;
+	border-radius: .2em;
+	margin: .5em;
+	float: left;
+	color: white;
+	font-family: 'Raleway';
+	text-decoration: none;
+}
+#booked h2{
+	font-family: 'Raleway';
+	color: white;
+}
+#booked p{
+	padding: .6em;
+	border-radius: .5em;
+	background-color: #2D2C2C40;
+	width: 50%;
+	color: white;
+	font-family: "raleway";
+}
+#frequent h2{
+	font-family: 'Raleway';
+	color: white;
+}
+#frequent h3{
+	color: white;
+	font-family: 'raleway';
+}
+#frequent p{
+	padding: .6em;
+	border-radius: .5em;
+	background-color: #2D2C2C40;
+	width: 50%;
+	color: white;
+	font-family: "raleway";
+}
+#contact h2{
+	font-family: 'Raleway';
+	color: white;
+}
+#contact p{
+	padding: .6em;
+	border-radius: .5em;
+	background-color: #2D2C2C40;
+	width: 50%;
+	color: white;
+	font-family: "raleway";
+}
+#contact img{
+	width: 50px;
+	margin-right: 4em;
+	opacity: .5;
+}
+#contact img:hover{
+	transition-duration: .2s;
+	opacity: 1;
+}
+#sources p{
+	padding: .6em;
+	border-radius: .5em;
+	background-color: #2D2C2C40;
+	width: 50%;
+	color: white;
+	font-family: "raleway";
+}
+#careers h2{
+	font-family: 'Raleway';
+	color: white;
+}
+#careers p{
+	padding: .6em;
+	border-radius: .5em;
+	background-color: #2D2C2C40;
+	width: 50%;
+	color: white;
+	font-family: "raleway";
+}
